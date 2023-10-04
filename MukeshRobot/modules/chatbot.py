@@ -8,10 +8,7 @@ import re
 from MukeshRobot import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
 
 bot = Client(
-    "v_Chat_Bot" ,
-    api_id = API_ID,
-    api_hash = API_HASH ,
-    bot_token = BOT_TOKEN
+    "v_chat_bot"
 )
 
 
