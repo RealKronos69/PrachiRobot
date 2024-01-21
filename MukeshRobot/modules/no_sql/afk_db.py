@@ -1,7 +1,7 @@
 from MukeshRobot.modules.no_sql import Mukeshdb
 
 afkdb = Mukeshdb.afk
-
+#afk
 
 async def is_afk(user_id: int) -> bool:
     user = await afkdb.find_one({"user_id": user_id})
