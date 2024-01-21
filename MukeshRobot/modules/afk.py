@@ -3,8 +3,8 @@ import time
 from Abg.helpers.human_read import get_readable_time
 from pyrogram.types import Message
 
-from Exon import Abishnoi
-from Exon.modules.no_sql.afk_db import add_afk, is_afk, remove_afk
+from MukeshRobot import Abishnoi
+from MukeshRobot.modules.no_sql.afk_db import add_afk, is_afk, remove_afk
 
 
 @Abishnoi.on_cmd(["afk", "brb"])
