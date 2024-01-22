@@ -2,7 +2,7 @@ import time, re
 from pyrogram import filters
 from MukeshRobot.modules.no_sql.readable_time import get_readable_time
 from pyrogram.types import Message
-
+from pyrogram.enums import MessageEntityType
 from MukeshRobot import pbot as lund
 from MukeshRobot.modules.no_sql.afk_db import add_afk, is_afk, remove_afk
 
