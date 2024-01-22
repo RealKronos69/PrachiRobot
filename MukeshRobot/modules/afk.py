@@ -1,5 +1,5 @@
 import time
-
+from pyrogram import filters
 from Abg.helpers.human_read import get_readable_time
 from pyrogram.types import Message
 
@@ -7,7 +7,7 @@ from MukeshRobot import pbot as lund
 from MukeshRobot.modules.no_sql.afk_db import add_afk, is_afk, remove_afk
 
 
-@lund.on_cmd(["afk", "brb"])
+@lund.on_message(filters.command(["afk", "brb"], prefixes=["/", "!"]))
 async def active_afk(_, message: Message):
     if message.sender_chat:
         return
@@ -92,7 +92,7 @@ async def active_afk(_, message: Message):
             "reason": _reason,
         }
     elif len(message.command) == 1 and message.reply_to_message.photo:
-        await Abishnoi.download_media(
+        await lund.download_media(
             message.reply_to_message, file_name=f"{user_id}.jpg"
         )
         details = {
