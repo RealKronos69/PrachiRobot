@@ -162,7 +162,8 @@ async def active_afk(_, message: Message):
         "CAACAgIAAxkBAAELO8NlrsNwWpToffCf6LoKW5BRb1WwAgAC3yIAArh-MEj8MsTvZfJl1DQE"
     )
     await message.reply_text(f"{message.from_user.first_name} ɪs ɴᴏᴡ ᴀғᴋ!")
-
+    NO_AFK_HANDLER = MessageHandler(
+    Filters.all & Filters.chat_type.groups, no_longer_afk, run_async=True
 
 __mod_name__ = "𝐀ғᴋ"
 
