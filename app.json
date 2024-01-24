@@ -45,7 +45,7 @@
     "EVENT_LOGS": {
        "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
        "required": true,
-       "value": "https://t.me/Soul_Network1"
+       "value": "'-2132785070'"
     },
     "MONGO_DB_URI": {
        "description": "Required for database connections.",
@@ -76,7 +76,7 @@
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username where your users will go and bother you with shit Example - The_support_chat.",
        "required": true,
-       "value": "https://t.me/Soul_Bots_Support_Chats"
+       "value": "Soul_Bots_Support_Chats"
     },
     "TOKEN": {
        "description": "Get bot token from @BotFather on TG",
