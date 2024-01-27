@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from telegram import InputMediaPhoto, TelegramError, Update
 from telegram.ext import CallbackContext
 
-from MukeshRobot import NEKO_PTB
+from MukeshRobot import dispatcher as NEKO_PTB
 from MukeshRobot.modules.disable import DisableAbleCommandHandler
 
 opener = urllib.request.build_opener()
