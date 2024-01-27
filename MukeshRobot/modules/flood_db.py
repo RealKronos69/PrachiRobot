@@ -1,9 +1,9 @@
 from threading import RLock
 from traceback import format_exc
 
-from Powers import LOGGER
-from Powers.database import MongoDB
-from Powers.utils.msg_types import Types
+from MukeshRobot import LOGGER
+from MukeshRobot.database import MongoDB
+from MukeshRobot.utils.msg_types import Types
 
 INSERTION_LOCK = RLock()
 
