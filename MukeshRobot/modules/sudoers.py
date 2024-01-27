@@ -3,9 +3,9 @@ import time
 
 import psutil
 
-import AlbedoBot.modules.sql.users_sql as sql
-import AlbedoBot.utils.formatter as formatter
-from AlbedoBot import StartTime
+import MukeshRobot.modules.sql.users_sql as sql
+import MukeshRobot.utils.formatter as formatter
+from MukeshRobot import StartTime
 
 # Stats Module
 
