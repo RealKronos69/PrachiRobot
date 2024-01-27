@@ -5,10 +5,10 @@ from typing import Generator, List, Union
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import CallbackQueryHandler, CommandHandler
 
-import AlbedoBot.modules.sql.language_sql as sql
-from AlbedoBot import NEKO_PTB
-from AlbedoBot.langs import get_language, get_languages, get_string
-from AlbedoBot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+import MukeshRobot.modules.sql.language_sql as sql
+from MukeshRobot import NEKO_PTB
+from MukeshRobot.langs import get_language, get_languages, get_string
+from MukeshRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
 
 
 def paginate(iterable: Iterable, page_size: int) -> Generator[List, None, None]:
