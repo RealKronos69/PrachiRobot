@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 from telegram import InputMediaPhoto, TelegramError, Update
 from telegram.ext import CallbackContext
 
-from AlbedoBot import NEKO_PTB
-from AlbedoBot.modules.disable import DisableAbleCommandHandler
+from MukeshRobot import NEKO_PTB
+from MukeshRobot.modules.disable import DisableAbleCommandHandler
 
 opener = urllib.request.build_opener()
 useragent = "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36"
