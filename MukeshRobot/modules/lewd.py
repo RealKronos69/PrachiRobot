@@ -10,11 +10,11 @@ from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.utils.helpers import mention_html
 
-import AlbedoBot.modules.sql.nsfw_sql as sql
-from AlbedoBot import NEKO_PTB
-from AlbedoBot.modules.helper_funcs.chat_status import user_admin
-from AlbedoBot.modules.helper_funcs.filters import CustomFilters
-from AlbedoBot.modules.log_channel import gloggable
+import MukeshRobot.modules.sql.nsfw_sql as sql
+from MukeshRobot import NEKO_PTB
+from MukeshRobot.modules.helper_funcs.chat_status import user_admin
+from MukeshRobot.modules.helper_funcs.filters import CustomFilters
+from MukeshRobot.modules.log_channel import gloggable
 
 
 @user_admin
